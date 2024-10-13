@@ -1,11 +1,47 @@
 import { Box, Divider, Typography } from "@mui/material";
 import React from "react";
 import vmap from '../coupleimg.png';
-import map from '../shared image (6).png';
+import map from '../thanks.jpg';
 
 const MyW = () => {
   return (
     <>
+      {/* Invitation Header */}
+      <Box
+        display="flex"
+        justifyContent="center"
+        alignItems="center"
+        flexDirection="column"
+        sx={{
+          width: "100%",
+          background: "linear-gradient(to bottom right, #ffcccb, #fff0f5)",  // Soft gradient for background
+          textAlign: "center",
+          padding: 2,
+          fontFamily: "'Dancing Script', cursive", // A script font for elegance
+        }}
+      >
+        <Typography
+          sx={{
+            fontSize: { xs: "20px", md: "28px" },
+            color: "#d47474",
+          }}
+        >
+          In the name of Allah, the Most Gracious, the Most Merciful
+        </Typography>
+        
+        <Typography
+          sx={{
+            fontSize: { xs: "16px", md: "24px" },
+            marginTop: 1,
+            color: "grey",
+            fontFamily: "'Open Sans', sans-serif",
+          }}
+        >
+          We are glad to invite you for the marriage of
+        </Typography>
+      </Box>
+
+      {/* Couple Names */}
       <Box
         display="flex"
         justifyContent="center"
@@ -14,9 +50,8 @@ const MyW = () => {
         sx={{
           width: "100%",
           height: "100vh",
-          background: "linear-gradient(to bottom right, #ffcccb, #fff0f5)",  // Soft gradient for background
           textAlign: "center",
-          padding: 2,
+          padding: 1.8,
         }}
       >
         {/* Name Faizan */}
@@ -59,7 +94,7 @@ const MyW = () => {
           sx={{
             marginTop: { xs: 2, md: 0 },
             fontFamily: "'Great Vibes', cursive",
-            fontSize: { xs: "60px", md: "100px" },
+            fontSize: { xs: "58px", md: "100px" },
             color: "#d47474",
           }}
         >
@@ -71,16 +106,16 @@ const MyW = () => {
       <Box sx={{ textAlign: "center", marginTop: { xs: 3, md: 6 } }}>
         <img
           src={vmap}
-          alt="Couple Image"
+          alt="Couple Imae"
           style={{
-            width: "100%",
-            maxWidth: "300px",
+            width: "110%",
+            maxWidth: "320px",
             height: "auto",
             borderRadius: "10px",
             boxShadow: "0px 4px 20px rgba(0, 0, 0, 0.1)",
           }}
         />
-
+ <Box  sx={{ border:'2px solid grey',borderRadius:'25px'}}>
         {/* Invitation Text */}
         <Typography
           sx={{
@@ -90,7 +125,7 @@ const MyW = () => {
             fontFamily: "'Dancing Script', cursive", // A celebratory script font
           }}
         >
-          Solicits your gracious presence on the occasion of their marriage
+          Solicits your gracious presence on the occasion 
         </Typography>
 
         {/* Date & Venue */}
@@ -102,33 +137,56 @@ const MyW = () => {
             fontFamily: "'Open Sans', sans-serif",
           }}
         >
-          Nikah
+          Nikah 
         </Typography>
+        
+        {/* Map Image */}
+       
+        <Typography
+          sx={{
+            color: "grey",
+            fontSize: { xs: "16px", md: "22px" },
+            marginTop: 3,
+            fontFamily: "'Dancing Script', cursive", // A celebratory script font
+          }}
+        >
+          on sunday November 17,2024 @ 11.55 am sharp at Neelifield Masjid,Ambur
+        </Typography>
+
         <Typography
           sx={{
             color: "#d47474",
             fontSize: { xs: "18px", md: "24px" },
+            marginTop: 2,
             fontFamily: "'Open Sans', sans-serif",
           }}
         >
-          
+          Valima 
         </Typography>
-
-        {/* Map Image */}
-        <Box>
+        <Typography
+          sx={{
+            color: "grey",
+            fontSize: { xs: "16px", md: "22px" },
+            marginTop: 3,
+            fontFamily: "'Dancing Script', cursive", // A celebratory script font
+          }}
+        >
+          on same day after zohar namaz at jalalia function hall,Near Mazhar Uloom High School,Ambur
+        </Typography>
+        </Box>
           <img
             src={map}
             alt="Map"
             style={{
-              width: "100%",
-              maxWidth: "300px",
+              width: "110%",
+              // maxWidth: "300px",
               height: "auto",
               marginTop: 20,
               borderRadius: "10px",
               boxShadow: "0px 4px 20px rgba(0, 0, 0, 0.1)",
             }}
           />
-        </Box>
+        
       </Box>
     </>
   );
