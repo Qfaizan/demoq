@@ -17,12 +17,12 @@ const MyW = () => {
           background: "linear-gradient(to bottom right, #ffcccb, #fff0f5)",  // Soft gradient for background
           textAlign: "center",
           padding: 2,
-          fontFamily: "'Dancing Script', cursive", // A script font for elegance
+          fontFamily: "'Dancing Script'", // A script font for elegance
         }}
       >
         <Typography
           sx={{
-            fontSize: { xs: "20px", md: "28px" },
+            fontSize: { xs: "12px", md: "20px" },
             color: "#d47474",
           }}
         >
@@ -31,7 +31,7 @@ const MyW = () => {
         
         <Typography
           sx={{
-            fontSize: { xs: "16px", md: "24px" },
+            fontSize: { xs: "20px", md: "28px" },
             marginTop: 1,
             color: "grey",
             fontFamily: "'Open Sans', sans-serif",
@@ -49,7 +49,7 @@ const MyW = () => {
         flexDirection={{ xs: "column", md: "row" }}
         sx={{
           width: "100%",
-          height: "100vh",
+          height: "70vh",
           textAlign: "center",
           padding: 1.8,
         }}
