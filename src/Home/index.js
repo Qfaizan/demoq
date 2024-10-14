@@ -19,16 +19,18 @@ const WeddingInvitation = () => {
         sx={{
           textAlign: "center",
           background: "linear-gradient(to right, #FFD5E5, #FFF0F5)",
-          padding: "20px",
+          padding: "30px",
         }}
       >
-          {/* Islamic Greeting & Verse */}
-          <Typography
+        {/* Islamic Greeting & Verse */}
+        <Typography
           sx={{
-            fontSize: { xs: "16px", md: "20px" },
+            fontSize: { xs: "18px", md: "22px" },
             color: "#D47474",
             fontStyle: "italic",
+            fontFamily: "'Great Vibes', cursive",
             marginBottom: 2,
+            lineHeight: "1.5em",
           }}
         >
           "And among His signs is that He created for you mates from among yourselves, 
@@ -37,15 +39,14 @@ const WeddingInvitation = () => {
         </Typography>
         <Typography
           sx={{
-            fontSize: { xs: "28px", md: "36px" },
+            fontSize: { xs: "32px", md: "40px" },
             fontWeight: "bold",
-            color: "#8B0000",
+            color: "#B22222",
             fontFamily: "'Dancing Script', cursive",
           }}
         >
-           
+          Wedding Invitation
         </Typography>
-       
       </Box>
 
       {/* Couple Image and Greeting */}
@@ -62,18 +63,20 @@ const WeddingInvitation = () => {
           alt="Couple"
           style={{
             width: "100%",
-            maxWidth: "250px", // Smaller for mobile
-            borderRadius: "10px",
+            maxWidth: "280px", // Slightly larger for emphasis
+            borderRadius: "15px",
+            boxShadow: "0px 4px 12px rgba(0, 0, 0, 0.1)",
           }}
         />
 
         {/* Greeting Quote */}
-        <Box sx={{ textAlign: "center", marginTop: "15px" }}>
+        <Box sx={{ textAlign: "center", marginTop: "20px" }}>
           <Typography
             sx={{
-              fontSize: { xs: "20px", md: "24px" },
+              fontSize: { xs: "22px", md: "26px" },
               fontWeight: "bold",
               color: "#8B0000",
+              fontFamily: "'Dancing Script', cursive",
             }}
           >
             "Two Souls, One Heart"
@@ -83,6 +86,7 @@ const WeddingInvitation = () => {
               fontSize: { xs: "16px", md: "18px" },
               color: "#696969",
               marginTop: 1,
+              fontFamily: "'Lora', serif",
             }}
           >
             We invite you to join us as we embark on this journey of love and togetherness (Nikah).
@@ -95,46 +99,50 @@ const WeddingInvitation = () => {
         sx={{
           width: "80%",
           margin: "auto",
-          padding: "15px",
+          padding: "20px",
           backgroundColor: "#FFF5F7",
-          borderRadius: "10px",
-          boxShadow: "0px 4px 12px rgba(0, 0, 0, 0.1)",
+          borderRadius: "12px",
+          boxShadow: "0px 6px 16px rgba(0, 0, 0, 0.15)",
           textAlign: "center",
         }}
       >
         <Typography
           sx={{
-            fontSize: { xs: "20px", md: "24px" },
+            fontSize: { xs: "22px", md: "26px" },
             color: "#8B0000",
             fontWeight: "bold",
+            fontFamily: "'Dancing Script', cursive",
           }}
         >
           Faizan
         </Typography>
         <Typography
           sx={{
-            fontSize: { xs: "16px", md: "20px" },
+            fontSize: { xs: "16px", md: "18px" },
             color: "#696969",
             marginTop: "10px",
+            fontFamily: "'Lora', serif",
           }}
         >
-          Son of Mrs.K B Nazeer Ahmed
+          Son of Mrs. K B Nazeer Ahmed
         </Typography>
         <Divider sx={{ marginY: 2 }} />
         <Typography
           sx={{
-            fontSize: { xs: "20px", md: "24px" },
+            fontSize: { xs: "22px", md: "26px" },
             color: "#8B0000",
             fontWeight: "bold",
+            fontFamily: "'Dancing Script', cursive",
           }}
         >
           Arshiya
         </Typography>
         <Typography
           sx={{
-            fontSize: { xs: "16px", md: "20px" },
+            fontSize: { xs: "16px", md: "18px" },
             color: "#696969",
             marginTop: "10px",
+            fontFamily: "'Lora', serif",
           }}
         >
           Daughter of Mr. & Mrs. Alahuddin
@@ -147,7 +155,7 @@ const WeddingInvitation = () => {
         <Accordion>
           <AccordionSummary expandIcon={<ExpandMoreIcon />}>
             <Typography
-              sx={{ fontWeight: "bold", fontSize: { xs: "18px", md: "22px" } }}
+              sx={{ fontWeight: "bold", fontSize: { xs: "18px", md: "22px" }, fontFamily: "'Lora', serif" }}
             >
               When & Where?
             </Typography>
@@ -160,6 +168,7 @@ const WeddingInvitation = () => {
                   fontSize: { xs: "20px", md: "24px" },
                   color: "#8B0000",
                   fontWeight: "bold",
+                  fontFamily: "'Dancing Script', cursive",
                   marginBottom: 2,
                 }}
               >
@@ -168,8 +177,9 @@ const WeddingInvitation = () => {
               <Typography
                 sx={{
                   fontSize: { xs: "16px", md: "18px" },
-                  color: "#696969",
+                  color: "black",
                   marginBottom: 1,
+                  fontFamily: "'Lora', serif",
                 }}
               >
                 Sunday, November 17, 2024 @ 11:55 AM
@@ -185,6 +195,7 @@ const WeddingInvitation = () => {
                   fontSize: { xs: "20px", md: "24px" },
                   color: "#8B0000",
                   fontWeight: "bold",
+                  fontFamily: "'Dancing Script', cursive",
                   marginBottom: 2,
                 }}
               >
@@ -193,10 +204,11 @@ const WeddingInvitation = () => {
               <Typography
                 sx={{
                   fontSize: { xs: "16px", md: "18px" },
-                  color: "#696969",
+                  color: "black",
+                  fontFamily: "'Lora', serif",
                 }}
               >
-                Onsame day After Zohar Namaz
+                on Same day After Zohar Namaz
                 <br />
                 Jalalia Function Hall, Ambur
               </Typography>
@@ -212,6 +224,7 @@ const WeddingInvitation = () => {
             fontSize: { xs: "16px", md: "18px" },
             color: "#8B0000",
             fontWeight: "bold",
+            fontFamily: "'Lora', serif",
           }}
         >
           Scan to View Location
