@@ -22,7 +22,7 @@ const MyW = () => {
       >
         <Typography
           sx={{
-            fontSize: { xs: "12px", md: "20px" },
+            fontSize: { xs: "10px", md: "12px" },
             color: "#d47474",
           }}
         >
@@ -119,7 +119,7 @@ const MyW = () => {
         {/* Invitation Text */}
         <Typography
           sx={{
-            color: "grey",
+            color: "black",
             fontSize: { xs: "16px", md: "22px" },
             marginTop: 3,
             fontFamily: "'Dancing Script', cursive", // A celebratory script font
@@ -144,7 +144,7 @@ const MyW = () => {
        
         <Typography
           sx={{
-            color: "grey",
+            color: "black",
             fontSize: { xs: "16px", md: "22px" },
             marginTop: 3,
             fontFamily: "'Dancing Script', cursive", // A celebratory script font
@@ -165,7 +165,7 @@ const MyW = () => {
         </Typography>
         <Typography
           sx={{
-            color: "grey",
+            color: "black",
             fontSize: { xs: "16px", md: "22px" },
             marginTop: 3,
             fontFamily: "'Dancing Script', cursive", // A celebratory script font
