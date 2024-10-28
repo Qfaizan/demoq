@@ -208,7 +208,7 @@ const WeddingInvitation = () => {
                   fontFamily: "'Lora', serif",
                 }}
               >
-                on Same day After Zohar Namaz
+                on Same day After Zohar Namaz @ 01:30 pm
                 <br />
                 Jalalia Function Hall, Ambur
               </Typography>
