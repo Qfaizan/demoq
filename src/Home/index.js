@@ -124,7 +124,7 @@ const WeddingInvitation = () => {
             fontFamily: "'Lora', serif",
           }}
         >
-          Son of Mrs. K B Nazeer Ahmed
+          Son of Lt. K B Nazeer Ahmed
         </Typography>
         <Divider sx={{ marginY: 2 }} />
         <Typography
@@ -145,7 +145,7 @@ const WeddingInvitation = () => {
             fontFamily: "'Lora', serif",
           }}
         >
-          Daughter of Mr. & Mrs. Alahuddin
+          Daughter of Mr. Alahuddin
         </Typography>
       </Box>
 
